@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.row{
+
+    @apply flex flex-wrap  py-8 items-center
+    
+    
+    
+    }
+    .colorr{
+        background-color: #BCDDA9;
+        
+    }
+  
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/images/class.jpg);
+  
+    background-position: center center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  
+  }
+  
+
+  ::-webkit-scrollbar {
+    background-color: #111111;
+    width: 0.2rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #BCDDA9;
+  }
+  
+  address{
+
+background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/images/background.jpg);
+background-position: center center center;
+background-size: cover;
+background-attachment: fixed;
+height: 100vh;
+
+
+}
+  
+.btn{
+  @apply px-4 pt-2 rounded-lg text-slate-500 bg-emerald-300
+}
+
+/* .product .btn{
+
+transition: transform 1s, opacity 1s;
+
+transform: translateY(100%);
+opacity: 0;
+
+}
+
+.product:hover .btn{
+  opacity: 1;
+  transform: translate(0%);
+} */
